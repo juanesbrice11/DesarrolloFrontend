@@ -1,10 +1,40 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
 .header{
+    font-family: "New Amsterdam", sans-serif;
+    font-weight: 400;
+    font-style: normal;
     width: 98%;
     max-width: 1200px;
     margin: 0 auto;
     height: 50px;
     background-color: #2e5adf;
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    z-index: 100;
+  }
+
+  .navbar{
+    padding-right: 100px;
+  }
+
+  .navbar a{
+    position: relative;
+    justify-content: space-between ;
+    font-size: 18px;
+    font-weight: 500;
+    margin-left: 40px;
+  }
+
+  .logo{
+    color: black;
+    margin-left: 100px;
+    font-size: 32px;
+    font-weight: 700;
+  }
+
+  a{
+    text-decoration: none;
+    color: aliceblue;
   }

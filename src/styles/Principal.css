@@ -1,26 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
 .main{
-    width: 98%;
-    max-width: 1200px;
-    margin: 20px auto;
-    display: flex;
-    justify-content: space-between;
-    min-height: 80dvh;
-  }
-  
-  .main .aside{
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    border-radius: 10px;
-    width: 25%;
-    background: #2e5adf;
-  }
-  
-  .main .principal{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 64%;
-    border-radius: 10px;
-    background: #2e5adf;
-  }
+
+  font-family: "New Amsterdam", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  width: 98%;
+  max-width: 1200px;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+  min-height: 80dvh;
+}
+
+.main .aside{
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  border-radius: 10px;
+  width: 25%;
+  background: #2e5adf;
+}
+
+.main .principal{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 64%;
+  border-radius: 10px;
+  background: #2e5adf;
+  padding: 20px;
+}
+
+.lista {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+}
+
+.card{
+  background: #3961da;
+  width: 80%;
+  margin: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  box-shadow: 5px 1px 20px rgba(0, 0, 0, 0.2);
+  border: solid;
+  cursor: default;
+  transition: all 400ms ease;
+}
+
+.card:hover{
+  box-shadow: 10px 5px 20px rgba(0,0,0, 0.4);
+  transform: translateY(-3%);
+}
+
+.card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
