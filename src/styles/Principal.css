@@ -14,12 +14,26 @@
 }
 
 .main .aside{
-  display: flex;
   justify-content: center;
   align-content: center;
   border-radius: 10px;
   width: 25%;
+  padding: 20px;
   background: #2e5adf;
+  color: white;
+  font-size: 20px;
+}
+
+.main .aside .titulo{
+  color: black;
+}
+main .aside img{
+  margin: 50px;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 10px;
 }
 
 .main .principal{
@@ -28,7 +42,6 @@
   align-items: center;
   width: 64%;
   border-radius: 10px;
-  background: #2e5adf;
   padding: 20px;
 }
 
